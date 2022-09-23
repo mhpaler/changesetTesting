@@ -1,1 +1,1 @@
-module.exports = require("@ethereum-tag-service/config/eslint-preset");
+module.exports = require("@mikepaler/config/eslint-preset");

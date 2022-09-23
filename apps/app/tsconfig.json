@@ -1,5 +1,5 @@
 {
-  "extends": "@ethereum-tag-service/tsconfig/nextjs.json",
+  "extends": "@mikepaler/tsconfig/nextjs.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "compilerOptions": {

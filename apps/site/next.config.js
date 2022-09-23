@@ -1,5 +1,5 @@
 const withTM = require("next-transpile-modules")([
-  "@ethereum-tag-service/ui"
+  "@mikepaler/ui"
 ]);
 const withNextra = require('nextra')({
   theme: 'nextra-theme-docs',

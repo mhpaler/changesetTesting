@@ -1,0 +1,15 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/User/Sites/etsMP"
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_CANNOT_RESOLVE_WORKSPACE_PROTOCOL",
+    "err": {
+      "name": "pnpm",
+      "message": "Cannot resolve workspace protocol of dependency \"@mikepaler/tsconfig\" because this dependency is not installed. Try running \"pnpm install\".",
+      "code": "ERR_PNPM_CANNOT_RESOLVE_WORKSPACE_PROTOCOL",
+      "stack": "pnpm: Cannot resolve workspace protocol of dependency \"@mikepaler/tsconfig\" because this dependency is not installed. Try running \"pnpm install\".\n    at makePublishDependency (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:170704:17)\n    at async /usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:170692:9\n    at async Promise.all (index 1)\n    at async makePublishDependencies (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:170690:60)\n    at async makePublishManifest (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:170675:22)\n    at async packPkg (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:171327:35)\n    at async Object.handler (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:171293:7)\n    at async Object.handler [as publish] (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:171149:27)\n    at async /usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176500:21\n    at async run (/usr/local/Cellar/pnpm/7.1.3/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:176474:34)"
+    }
+  }
+}

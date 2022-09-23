@@ -1,5 +1,5 @@
 const nextTranslate = require('next-translate');
-const withTM = require("next-transpile-modules")(["@ethereum-tag-service/ui"]);
+const withTM = require("next-transpile-modules")(["@mikepaler/ui"]);
 
 /**
  * @type {import('next').NextConfig}
